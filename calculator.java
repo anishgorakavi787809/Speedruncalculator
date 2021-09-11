@@ -182,7 +182,7 @@ class calculator {
        try {
      y = yput.nextInt();
      int z = ans + y;
-     System.out.printf("%d + %d = %d",ans,y,z);
+     System.out.printf("%d + %d = %d\n",ans,y,z);
 
      print("Press any key to continue!");
      System.in.read();
@@ -204,7 +204,7 @@ class calculator {
        try {
      y = yput.nextInt();
      int z = ans - y;
-     System.out.printf("%d - %d = %d",ans,y,z);
+     System.out.printf("%d - %d = %d\n",ans,y,z);
 
      print("Press any key to continue!");
      System.in.read();
@@ -227,7 +227,7 @@ class calculator {
        try {
      y = yput.nextInt();
      int z = ans * y;
-     System.out.printf("%d * %d = %d",ans,y,z);
+     System.out.printf("%d * %d = %d\n",ans,y,z);
 
      print("Press any key to continue!");
      System.in.read();
@@ -253,7 +253,7 @@ class calculator {
        try {
      y = yput.nextInt();
      int z = ans / y;
-     System.out.printf("%d / %d = %d",ans,y,z);
+     System.out.printf("%d / %d = %d\n",ans,y,z);
      print("Press any key to continue!");
      System.in.read();
      break;
